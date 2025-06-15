@@ -1,0 +1,413 @@
+
+.navbar h1{
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    color: #012970;
+}
+.navbar img{
+    padding: 0px 8px 0px 0px;
+}
+#navbarNav{
+    justify-content: end;
+}
+#navbarNav a{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    padding: 18px 12px;
+    color: #012970;
+}
+#navbarNav a:hover{
+    color: #4154f1;
+}
+#on-btn a{
+    color:#4154f1;
+}
+#navbarNav button{
+    margin: 0px 0px 0px 30px;
+    padding: 8px 25px;
+    background-color: #4154f1;
+}
+#vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.hero h1{
+    font-size: 48px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    color: #012970;
+}
+.hero p{
+    margin: 5px 0px 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.hero button{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding: 12px 40px;
+    background-color: #4154f1;
+}
+.hero i{
+    font-size: 30px;
+    padding: 5px 5px;
+    color: #4154f1;
+}
+.hero span{
+    font-size: 26px;
+    margin-top: 5px;
+}
+.hero span:hover{
+    color: #4154f1;
+}
+#about{
+    margin-top: 150px;
+}
+.info{
+    background-color: #F5F6FE;
+}
+.info h3{
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    margin: 0px 0px 8px;
+    color: #4154f1;
+}
+.info h2{
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    margin: 0px 0px 8px;
+    color: #012970;
+}
+.info p{
+    font-size: 16px;
+    margin: 15px 0px 30px;
+}
+.info button{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    padding: 15px 40px;
+    background-color: #4154f1;
+}
+.main h2{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    color: #4154f1;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+.main p{
+    font-size: 32px;
+    font-family:"Nunito", sans-serif;
+    font-weight: bolder;
+    margin: 10px 0px 0px;
+    color: #012970;
+}
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card img{
+    padding: 30px 50px;
+    transition: ease-in 0.6s
+    
+}
+.card img:hover{
+    scale: 0.9;
+    
+}
+.card h3{
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    color: #012970;
+}
+.card p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+    
+}
+
+.card1 i{
+    font-size: 40px;
+    color: #4154f1;
+}
+.card1 span{
+    font-size: 36px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: bolder;
+    color: #012970;
+}
+.card1 p{
+    font-size: 16px;
+}
+.card2{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 24px 20px;
+
+}
+.card2 h3{
+    font-size: 16px;
+}
+.card2 i{
+    font-size: 20px;
+    color: #4154f1;
+}
+.card2 i:hover{
+    color: #e5e5e7;
+    background: #4154f1;
+}
+.card3{
+    margin: -48px -12px 0px;
+}
+.card3 i{
+    font-size: 45px;
+    color: #4154f1;
+    margin: 0px 15px 0px 0px;
+}
+.card3 h4{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:"Nunito", sans-serif ;
+    color: #012970;
+    margin: 0px 0px 10px;
+}
+.card3 p{
+    font-size: 15px;
+    font-family:"Roboto", sans-serif ;
+}
+.card5{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 3px solid #0DCAF0;
+    padding: 70px;
+    
+}
+.card5:hover{
+    color:white;
+    background-color:#0DCAF0;
+}
+.card5 i{
+    font-size: 35px;
+    padding: 10px 20px;
+    color: #0DCAF0;
+    background-color: #E6FAFD;
+
+}
+
+.card5 h1{
+    font-size: 30px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: bolder;
+    padding: 12px 28px;
+
+
+}
+.card5 a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+
+}
+#icon:hover{
+    background-color: #fd7e14;
+}
+#icon1:hover{
+    background-color: #20c997;
+}
+#icon2:hover{
+    background-color: #df1529;
+}
+#icon3:hover{
+    background-color: #6610f2;
+
+}
+#icon4:hover{
+    background-color: #f3268c;
+}
+.pricing-item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pricing-item h3{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family:"Nunito", sans-serif ;
+    margin: 0px 0px 15px;
+    color: #20c997;
+}
+.pricing-item p{
+    font-size: 36px;
+    font-family:"Nunito", sans-serif ;
+    color: #012970;
+}
+.pricing-item span{
+    font-size: 18px;
+    color: grey;
+}
+.pricing-item i{
+    font-size: 50px;
+    color: #20c997;
+    padding: 20px 0px;
+}
+.pricing-item li{
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 0px 10px;
+}
+.pricing-item button{
+    font-size: 16px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: bolder;
+    padding: 8px 40px 10px;
+    border: 1px solid #4154f1;
+    color: #4154f1;
+}
+.pricing-item button:hover{
+    background-color: #4154f1;
+    color: white;
+}
+.pricing-item:hover{
+    scale: 1.1;
+}
+
+.main-info h3{
+    font-size: 16px;
+    font-family:"Nunito", sans-serif ;
+    margin: 0px 30px 0px 0px;
+    color: #4154f1;
+}
+.main-info h3:hover{
+    color: black;
+}
+.main button{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 0px 10px 5px;
+    background-color: white;
+    border:none;
+
+}
+.main button:hover{
+    color: #4154f1;
+}
+.team{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px;
+    transition: ease-in 0.2s;
+}
+.team h4{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+    margin: 0px 0px 5px;
+    color: #012970;
+}
+.team p{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 16px;
+    padding: 15px 0px 0px;
+}
+.team:hover{
+    scale: 1.1;
+}
+.contact-card{
+    padding: 30px;
+    background-color: #F8F8F8;
+}
+.contact-card i{
+    font-size: 30px;
+    color: #4154f1
+}
+.contact-card h3{
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    color: #012970;
+    margin: 20px 0px 10px;
+}
+.contact-card p{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+#form button{
+    border: 1px solid #4154F1;
+    background-color: #4154F1;
+    color: #fff;
+}
+#form button:hover{
+    opacity: 0.8;
+}
+.btn form{
+    background-color: #F9FAFE;
+}
+.btn button{
+    border: 1px solid #4154F1;
+    background-color: #4154F1;
+    color: #fff;
+}
+.fotter span{
+    font-size: 24px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: bolder;
+    color: #012970;
+}
+.fotter p{
+    font-size: 14px;
+    margin: 0px 0px 10px;
+}
+.fotter h4{
+    font-size: 16px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: bolder;
+    color: #012970;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 12px;
+
+}
+.fotter-card i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10%;
+    color: #4154F1;
+    background-color: #e4e6f0;
+}
+.fotter-card i:hover{
+    background-color: #4154F1;
+    color:  #fff;
+}
+
+
+
+.up{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    font-size: 30px;
+    border-radius: 10%;
+    padding: 5px;
+    color:white;
+    background-color: #4154f1;
+}
+.up a{
+    text-decoration: none;
+    color: #fff;
+}
